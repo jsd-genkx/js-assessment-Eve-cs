@@ -139,7 +139,7 @@ class Field {
       this.field[this.positionRow][this.positionCol] === "^"
     ) {
       this.gameOver = true;
-      console.log("⭐🌈⭐You win by finding their hat.");
+      console.log("⭐🌈⭐ You win by finding the hat.");
       return;
     }
   }
