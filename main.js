@@ -125,21 +125,21 @@ class Field {
       this.positionCol < 0
     ) {
       this.gameOver = true;
-      console.log("You loses by moving “outside” of the field.");
+      console.log("😱You loses by moving “outside” of the field.");
       return;
     } else if (
       //check if actor found hole
       this.field[this.positionRow][this.positionCol] === "O"
     ) {
       this.gameOver = true;
-      console.log("Loses by falling in a hole.");
+      console.log("💀Loses by falling in a hole.");
       return;
     } else if (
       //check if actor fount hat
       this.field[this.positionRow][this.positionCol] === "^"
     ) {
       this.gameOver = true;
-      console.log("Wins by finding their hat.");
+      console.log("⭐🌈⭐You win by finding their hat.");
       return;
     }
   }
@@ -165,7 +165,7 @@ class Field {
         this.positionCol === this.field[0].length - 1
       ) {
         console.log(
-          "You are at the edge of the field. Going further may cause you to lose."
+          "❗You are at the edge of the field. Going further may cause you to lose."
         );
       }
       const way = prompt("Which way do you want to go?"); // user input: u , way = 'u'
