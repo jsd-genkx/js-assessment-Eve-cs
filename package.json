@@ -1,19 +1,19 @@
 {
-	"name": "js-find-your-hat",
-	"version": "1.0.0",
-	"description": "JS Assessment",
-	"keywords": [
-		"JavaScript"
-	],
-	"license": "ISC",
-	"author": "",
-	"type": "module",
-	"main": "main.js",
-	"scripts": {
-		"dev": "node main.js"
-	},
-	"dependencies": {
-		"clear-screen": "^1.0.0",
-		"prompt-sync": "^4.2.0"
-	}
+  "name": "js-find-your-hat",
+  "version": "1.0.0",
+  "description": "JS Assessment",
+  "keywords": [
+    "JavaScript"
+  ],
+  "license": "ISC",
+  "author": "04_Chunyanan",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "dependencies": {
+    "clear-screen": "^1.0.0",
+    "prompt-sync": "^4.2.0"
+  }
 }
